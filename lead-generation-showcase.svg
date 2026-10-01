@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="plgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09152b" />
+      <stop offset="100%" stop-color="#14283d" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="320" rx="14" fill="url(#plgBg)"/>
+  <rect x="1" y="1" width="498" height="318" rx="13" stroke="#334155" stroke-width="1.2"/>
+
+  <!-- Header -->
+  <rect x="25" y="22" width="450" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="45" cy="41" r="5" fill="#10b981"/>
+  <text x="60" y="45" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">Project Blueprint: B2B Verified Prospect Pipeline</text>
+  <rect x="365" y="30" width="100" height="22" rx="11" fill="#10b981" fill-opacity="0.2"/>
+  <text x="415" y="44" text-anchor="middle" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700">LEAD GEN</text>
+
+  <!-- Left: Sample Prospect Matrix Table -->
+  <g transform="translate(25, 75)">
+    <rect width="215" height="220" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Sample Contact Structure</text>
+
+    <!-- Row 1 -->
+    <rect x="12" y="38" width="191" height="46" rx="6" fill="#1e293b"/>
+    <circle cx="28" cy="61" r="10" fill="#3b82f6" fill-opacity="0.2"/>
+    <circle cx="28" cy="58" r="3.5" fill="#60a5fa"/>
+    <path d="M 23 66 C 23 62 33 62 33 66" stroke="#60a5fa" stroke-width="1" fill="none"/>
+    <text x="45" y="54" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">C-Suite / Founder</text>
+    <text x="45" y="68" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9">E-Commerce • Validated Email</text>
+    <circle cx="190" cy="61" r="3" fill="#10b981"/>
+
+    <!-- Row 2 -->
+    <rect x="12" y="90" width="191" height="46" rx="6" fill="#1e293b"/>
+    <circle cx="28" cy="113" r="10" fill="#8b5cf6" fill-opacity="0.2"/>
+    <circle cx="28" cy="110" r="3.5" fill="#a78bfa"/>
+    <path d="M 23 118 C 23 114 33 114 33 118" stroke="#a78bfa" stroke-width="1" fill="none"/>
+    <text x="45" y="106" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">VP of Marketing</text>
+    <text x="45" y="120" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9">SaaS Tech • LinkedIn Direct</text>
+    <circle cx="190" cy="113" r="3" fill="#10b981"/>
+
+    <!-- Row 3 -->
+    <rect x="12" y="142" width="191" height="46" rx="6" fill="#1e293b"/>
+    <circle cx="28" cy="165" r="10" fill="#06b6d4" fill-opacity="0.2"/>
+    <circle cx="28" cy="162" r="3.5" fill="#22d3ee"/>
+    <path d="M 23 170 C 23 166 33 166 33 170" stroke="#22d3ee" stroke-width="1" fill="none"/>
+    <text x="45" y="158" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">Operations Director</text>
+    <text x="45" y="172" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9">Real Estate • Direct Phone</text>
+    <circle cx="190" cy="165" r="3" fill="#10b981"/>
+
+    <rect x="12" y="194" width="191" height="18" rx="4" fill="#0f172a"/>
+    <text x="107" y="207" text-anchor="middle" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600">Zero Duplicates • Fresh Verification</text>
+  </g>
+
+  <!-- Right: Verification Specs -->
+  <g transform="translate(260, 75)">
+    <rect width="215" height="220" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Data Cleansing &amp; Fields</text>
+
+    <g transform="translate(16, 40)">
+      <circle cx="12" cy="12" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#34d399" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Full Name &amp; Direct Title</text>
+    </g>
+
+    <g transform="translate(16, 75)">
+      <circle cx="12" cy="12" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#34d399" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Business &amp; Personal Email</text>
+    </g>
+
+    <g transform="translate(16, 110)">
+      <circle cx="12" cy="12" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#34d399" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Company Size &amp; Location</text>
+    </g>
+
+    <g transform="translate(16, 145)">
+      <circle cx="12" cy="12" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#34d399" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">SMTP Ping Verification Passed</text>
+    </g>
+
+    <rect x="16" y="180" width="183" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="107" y="197" text-anchor="middle" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Formatted in CSV / Google Sheets</text>
+  </g>
+</svg>

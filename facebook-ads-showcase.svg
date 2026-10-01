@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="pfbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#1b1c38" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="320" rx="14" fill="url(#pfbBg)"/>
+  <rect x="1" y="1" width="498" height="318" rx="13" stroke="#334155" stroke-width="1.2"/>
+
+  <!-- Header -->
+  <rect x="25" y="22" width="450" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="45" cy="41" r="5" fill="#3b82f6"/>
+  <text x="60" y="45" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">Project Blueprint: Full-Funnel Paid Advertising Campaign</text>
+  <rect x="365" y="30" width="100" height="22" rx="11" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="415" y="44" text-anchor="middle" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700">PAID MEDIA</text>
+
+  <!-- Left: Campaign Tree Blueprint -->
+  <g transform="translate(25, 75)">
+    <rect width="215" height="220" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Campaign Structure</text>
+
+    <!-- Top Campaign -->
+    <rect x="20" y="40" width="175" height="32" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+    <text x="32" y="60" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700">1. CBO Master Campaign</text>
+
+    <!-- Ad Sets branches -->
+    <line x1="40" y1="72" x2="40" y2="92" stroke="#475569" stroke-width="1.5"/>
+    <line x1="40" y1="92" x2="60" y2="92" stroke="#475569" stroke-width="1.5"/>
+    
+    <rect x="60" y="80" width="135" height="30" rx="5" fill="#1e293b" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="70" y="99" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600">Ad Set A: Cold Audience</text>
+
+    <line x1="40" y1="92" x2="40" y2="128" stroke="#475569" stroke-width="1.5"/>
+    <line x1="40" y1="128" x2="60" y2="128" stroke="#475569" stroke-width="1.5"/>
+
+    <rect x="60" y="116" width="135" height="30" rx="5" fill="#1e293b" stroke="#06b6d4" stroke-width="1"/>
+    <text x="70" y="135" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600">Ad Set B: Retargeting LAL</text>
+
+    <line x1="40" y1="128" x2="40" y2="164" stroke="#475569" stroke-width="1.5"/>
+    <line x1="40" y1="164" x2="60" y2="164" stroke="#475569" stroke-width="1.5"/>
+
+    <rect x="60" y="152" width="135" height="30" rx="5" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+    <text x="70" y="171" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="600">Ad Set C: High Intent</text>
+
+    <rect x="20" y="190" width="175" height="20" rx="4" fill="#0f172a"/>
+    <text x="107" y="204" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="9">Dynamic Creative Testing (DCT)</text>
+  </g>
+
+  <!-- Right: Deliverables -->
+  <g transform="translate(260, 75)">
+    <rect width="215" height="220" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Testing &amp; Execution Protocol</text>
+
+    <g transform="translate(16, 40)">
+      <circle cx="12" cy="12" r="10" fill="#3b82f6" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Custom Audience Segmentation</text>
+    </g>
+
+    <g transform="translate(16, 75)">
+      <circle cx="12" cy="12" r="10" fill="#3b82f6" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Pixel &amp; CAPI Event Setup</text>
+    </g>
+
+    <g transform="translate(16, 110)">
+      <circle cx="12" cy="12" r="10" fill="#3b82f6" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">High-Converting Ad Copy Angles</text>
+    </g>
+
+    <g transform="translate(16, 145)">
+      <circle cx="12" cy="12" r="10" fill="#3b82f6" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#60a5fa" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">A/B Creative &amp; Hook Testing</text>
+    </g>
+
+    <rect x="16" y="180" width="183" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="107" y="197" text-anchor="middle" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Weekly Performance Optimization</text>
+  </g>
+</svg>

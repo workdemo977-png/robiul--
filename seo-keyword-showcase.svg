@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="pkwBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="320" rx="14" fill="url(#pkwBg)"/>
+  <rect x="1" y="1" width="498" height="318" rx="13" stroke="#334155" stroke-width="1.2"/>
+  
+  <!-- Showcase Header -->
+  <rect x="25" y="22" width="450" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="45" cy="41" r="5" fill="#38bdf8"/>
+  <text x="60" y="45" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">Project Blueprint: High-Intent B2B Keyword Matrix</text>
+  <rect x="375" y="30" width="90" height="22" rx="11" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="420" y="44" text-anchor="middle" fill="#60a5fa" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700">SEO RESEARCH</text>
+
+  <!-- Content Grid -->
+  <g transform="translate(25, 75)">
+    <!-- Column 1: Clustering Breakdown -->
+    <rect width="215" height="220" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Search Intent Distribution</text>
+    
+    <!-- Intent bars -->
+    <text x="16" y="55" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="10">Commercial Intent (52%)</text>
+    <rect x="16" y="62" width="180" height="6" rx="3" fill="#1e293b"/>
+    <rect x="16" y="62" width="94" height="6" rx="3" fill="#10b981"/>
+
+    <text x="16" y="90" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="10">Informational Long-Tail (34%)</text>
+    <rect x="16" y="97" width="180" height="6" rx="3" fill="#1e293b"/>
+    <rect x="16" y="97" width="62" height="6" rx="3" fill="#38bdf8"/>
+
+    <text x="16" y="125" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="10">Transactional Terms (14%)</text>
+    <rect x="16" y="132" width="180" height="6" rx="3" fill="#1e293b"/>
+    <rect x="16" y="132" width="26" height="6" rx="3" fill="#818cf8"/>
+
+    <!-- Bottom summary tag -->
+    <rect x="16" y="160" width="183" height="42" rx="6" fill="#1e293b"/>
+    <text x="26" y="178" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Research Focus:</text>
+    <text x="26" y="193" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="9.5">Low KD (&lt;25) &amp; High Purchase Intent</text>
+  </g>
+
+  <g transform="translate(260, 75)">
+    <!-- Column 2: Deliverable Snapshot -->
+    <rect width="215" height="220" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Analyzed Dataset Specs</text>
+
+    <g transform="translate(16, 40)">
+      <circle cx="12" cy="12" r="10" fill="#3b82f6" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">250+ Filtered Keywords</text>
+    </g>
+
+    <g transform="translate(16, 75)">
+      <circle cx="12" cy="12" r="10" fill="#10b981" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#34d399" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Competitor Content Gap</text>
+    </g>
+
+    <g transform="translate(16, 110)">
+      <circle cx="12" cy="12" r="10" fill="#8b5cf6" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Search Volume &amp; CPC Matrix</text>
+    </g>
+
+    <g transform="translate(16, 145)">
+      <circle cx="12" cy="12" r="10" fill="#f59e0b" fill-opacity="0.2"/>
+      <path d="M 8 12 L 11 15 L 17 9" stroke="#fbbf24" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="30" y="15" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="600">Content Roadmap Plan</text>
+    </g>
+
+    <rect x="16" y="180" width="183" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <text x="107" y="197" text-anchor="middle" fill="#93c5fd" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">Standardized Excel / Sheets Delivery</text>
+  </g>
+</svg>
